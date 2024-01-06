@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="log.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </head>
+<body>
+  <script type="text/javascript">
+    function submit_form(){
+      var name=document.myform.name.value;
+      var password=document.myform.password.value;
+      if(name == null || name == " "){
+        alert("Name can't be blank");
+        return false;
+      }
+      else if(password . length < 6){
+        alert("password must be at least 6 characters long");
+        return false;
+      }
+      else{
+
+        alert("login successfully");
+    
+       function create(){
+      window.location="signup.html"
+       }
+    }
+  }
+
+  </script> 
+  <script>
+    function submit_form(){
+      alert("login successfully");
+    
+       function create(){
+      window.location="signup.html"
+       }
+    }
+  </script>
+  <script>
+    $(document).ready(function(){
+        $(".form").mouseenter(function(){
+            alert("you are enter a Order Form ");
+        });
+    });
+</script>
+<div class="fixed-top">...
+       
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="logoes.jpg" width="100xp" height="100xp">
+        </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./project.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./arrive.html">Arrivals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./log.html">Orders</a>
+          </li>
+         
+         
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+    <div class="forms">
+      <form action="" class="form" onsubmit="submit_form()">
+        <h1>For Orders</h1>
+        <label for="Name">Name</label>
+        <input type="text" class="box" placeholder="Name">
+        <label for="email">E-mail</label>
+        <input type="email" class="box" placeholder="email">
+        <label for="password">Password</label>
+        <input type="password" class="box" placeholder="password">
+        <label for="date">Date</label>
+        <input type="date" class="box" placeholder="Date">
+        <label for="no of products">No of Products</label>
+        <input type="number" class="box" placeholder="no of products">
+        <label for="address">Address</label>
+        <input type="text" class="box" placeholder="Address">
+        <input type="submit" class="s" placeholder="submit">
+      </form>
+  
+    </div>
+
+    <!-- <form>
+      <div class="for">
+      <div class="form-row">
+        <div class="f">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input type="email" class="box" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Password</label>
+          <input type="password" class="box" id="inputPassword4" placeholder="Password">
+        </div>
+      </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Product</label>
+        <input type="text" class="box" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Address </label>
+        <input type="text" class="box" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City</label>
+          <input type="text" class="box" id="inputCity">
+        </div>
+        
+        
+      </div>
+      <div class="form-group col-md-4">
+        <label for="inputState">State</label>
+        <select id="inputState" class="form-control">
+          <option selected>Choose...</option>
+          <option>...</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign in</button>
+    </div>
+    </form> -->
+    <section id="foot">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="f1">
+          <h3>About</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis repellat fugit vel quisquam deleniti esse voluptatum, hic, beatae aut officiis iusto eaque necessitatibus quasi eos dolore, molestias unde mollitia et.</p>
+          <i class="fa-brands fa-twitter fa-2x"></i>
+          <i class="fa-brands fa-facebook fa-2x"></i>
+          <i class="fa-brands fa-instagram fa-2x"></i>
+          <i class="fa-brands fa-youtube fa-2x"></i>
+          <i class="fa-brands fa-github  fa-2x"></i>
+          
+         
+        </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="foot1">
+            <h3>Service</h3>
+            <ul>
+              <li>Product</li>
+              <li>Help&Support</li>
+              <li>Pricing</li>
+            </ul>
+          </div>
+          
+        </div>
+        <div class="col-sm-3">
+          <div class="foot2">
+            <h3>Product</h3>
+            <ul>
+              <li>Sofa's</li>
+              <li>Chair's</li>
+              <li>Living Room</li>
+            </ul>
+          </div>
+          
+        </div>
+        <div class="col-sm-3">
+          <div class="foot3">
+            <h3>Contact</h3>
+            <ul>
+              <li> <i class="fa-solid fa-location-dot"></i>Trichy</li>
+              <li> <i class="fa-solid fa-phone"></i>+91 8749739897</li>
+              <li> <i class="fa-solid fa-envelope"></i>Furni@gmail.com</li>
+            </ul>
+          </div>
+          
+        </div>
+      </div>
+      <section id="l">
+        <h5>@coding with Isaac|2023 All Right Reserved</h5>
+      </section>
+      
+      </section>
+   
+     
+    
+     
+</body>
+</html>

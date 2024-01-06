@@ -1,0 +1,256 @@
+
+
+/*  rgba(216, 112, 147, 0.719)*/
+.container-fluid{
+    height: 90px;
+    background-color: gray;
+     box-shadow: 15px 20px 20px rgb(0,0,0,.1);
+    
+    width: 2000px;
+}
+.container-fluid a img{
+    border-radius: 50px;
+   
+}
+.navbar-brand{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    color: green;
+    
+}
+.navbar-brand a{
+    font-size: 50px;
+    color: green;
+
+}
+.nav-item a{
+
+}
+
+.navbar-navme-auto{
+    margin-left: 200px;
+}
+#navbarSupportedContent a{
+    color: black;
+    font-size: 30px;
+    border: 2px solid transparent;
+    
+}
+
+
+#navbarSupportedContent a:hover{
+    color: white;
+    border-bottom: 2px solid green;
+}
+.fixed-top{
+    margin-top: -23px;
+    
+    
+}.nav-item {
+    
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+.nav-item a{
+    margin-left: 50px;
+    font-size: 30px;
+
+}
+.d-flex{
+    margin-top: 28px;
+    display: inline;
+}
+
+.d-flex .lo button{
+    background-color: green;
+    
+    
+
+}
+
+#about{
+    background-color: #F5CAC3;
+    
+    margin-top: 10px;
+}
+#about .p1{
+    
+    
+    margin-left: 60px;
+
+
+}
+.carousel-inner{
+    height: 600px;
+}
+#about img{
+    
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+#about .a h1{
+    margin-top: 30px;
+    margin-left: 500px;
+    color: brown;
+    box-shadow: 2px 2px solid black;
+}
+#about .a h3{
+    margin-left: 580px;
+    color: black;
+    
+}
+.b{
+    color: green;
+}
+#about .btn{
+    margin-top: 20px;
+    margin-left: 100px;
+    color: green;
+}
+#about .btn:hover{
+    color: rebeccapurple;
+    
+}
+#our .p1 h1{
+    margin-top: 100px;
+    margin-left: 500px;
+    color: black;
+    text-shadow: 2px solid white;
+}
+#our .infor .indent{
+    font-size: 20px;
+    color: black;
+          text-indent: 40px;
+}
+#things .p{
+    margin-left: 500px;
+    color: rgba(165, 42, 42, 0.801);
+    text-shadow: 2px 2px black 
+    2px 2px black;
+}
+#things .p1{
+    
+    font-family: sans-serif;
+
+}
+#card{
+    background-color: pink;
+   
+
+}
+#card .cards3 img{
+    height: 320px;
+}
+#card .card1{
+    margin-top: 30px;
+    border: 1px solid gray;
+    box-shadow: 15px 20px 20px rgb(0,0,0,.3),inset 4px 4px 10px black;
+}
+#card .card1:hover{
+    color: #26425A;
+    transform: scale(1.1);
+    
+}
+#card .cards2{
+    
+    margin-top: 30px;
+    border: 1px solid gray;
+    box-shadow: 15px 20px 20px rgb(0,0,0,.3),inset 4px 4px 10px black;
+}
+#card .cards2:hover{
+    color: #26425A;
+    transform: scale(1.1);
+    
+}
+#card .cards3{
+    margin-top: 30px;
+    border: 1px solid gray;
+    box-shadow: 15px 20px 20px rgb(0,0,0,.3),inset 4px 4px 10px black;
+}
+#card .cards3:hover{
+    color: #26425A;
+    transform: scale(1.1);
+    
+}
+#card .cards4{
+    margin-top: 30px;
+    border: 1px solid gray;
+    box-shadow: 15px 20px 20px rgb(0,0,0,.3),inset 4px 4px 10px black;
+}
+#card .cards4:hover{
+    color: #26425A;
+    transform: scale(1.1);
+    
+}
+#for{
+    background: url("p4.jpg");
+    background-size: cover;
+    background-position: center;
+   height: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.f{  
+    height: 300px;
+      width: 500px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 500px;
+        background-color: #535878;
+        border-radius: 10px;
+        position: absolute;
+        top: 1550px;
+}
+
+.f h1{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.f input{
+    border-radius: 20px;
+}
+.f textarea{
+    border-radius: 20px;
+}
+.sub{
+    padding: 3px;
+    width: 70px;
+    margin-left: 200px;
+    background-color: rgba(165, 42, 42, 0.801);
+}
+.sub:hover{
+    background-color: green;
+}
+#foot{
+    background-color: gray;
+}
+#foot.f1 h3{
+      color: brown;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#foot .f1{
+    margin-left: 20px;
+}
+.foot3 ul{
+    list-style-type: none;
+}
+#foot i:hover{
+    background-color: white;
+    
+ }
+ #l{
+     margin-bottom: -40px;
+     background-color: black;
+ }
+ #l h5{
+     margin-left: 500px;
+     color: white;
+ }
+ 

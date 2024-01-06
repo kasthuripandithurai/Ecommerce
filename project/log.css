@@ -1,0 +1,166 @@
+.container-fluid{
+    height: 90px;
+    background-color: gray;
+     box-shadow: 15px 20px 20px rgb(0,0,0,.1);
+    
+    width: 2000px;
+}
+.container-fluid a img{
+    border-radius: 50px;
+   
+}
+.navbar-brand{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 40px;
+    color: green;
+    
+}
+.navbar-brand a{
+    font-size: 50px;
+    color: green;
+
+}
+.nav-item a{
+
+}
+
+.navbar-navme-auto{
+    margin-left: 200px;
+}
+#navbarSupportedContent a{
+    color: black;
+    font-size: 30px;
+    border: 2px solid transparent;
+    
+}
+
+
+#navbarSupportedContent a:hover{
+    color: white;
+    border-bottom: 2px solid green;
+}
+.fixed-top{
+    margin-top: -23px;
+    
+    
+}.nav-item {
+    
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+.nav-item a{
+    margin-left: 50px;
+    font-size: 30px;
+
+}
+.d-flex{
+    margin-top: 28px;
+    display: inline;
+}
+
+.d-flex .lo button{
+    background-color: green;
+    
+    
+
+}
+
+
+body{
+    background: url(sofa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.for{
+    margin-left: 500px;
+    
+}
+.forms{
+     color: grey;
+    flex-direction: column;
+    width: 500px;
+    height: 900px;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, o, 0, 0.5);
+    box-shadow: inset -5px -5px rgba(0, o, 0, 0.5);
+    border-radius: 25px;
+    margin-left: 500px;
+    box-shadow: 15px 20px 20px rgb(0,0,0,.3),inset 4px 4px 10px black;
+}
+label{
+    color: black;
+    flex-direction: column;
+    display: flex;
+    font-size: 15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.forms h1{
+    color: black;
+    margin-left: 200px;
+    margin-right: 150px;
+    font-size: 50px;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.5);
+    margin: 70px;
+}
+.box{
+    width: 400px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: inset-3px -3px rgba(0, 0, 0, 0.5);
+   
+    font-size: 1rem;
+}
+.s{
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset-3px -3px rgba(0, 0, 0, 0.5);
+    
+    
+}
+.s:hover{
+    cursor: pointer;
+    color: white;
+    background-color:  rgba(255, 255, 255, 0.1);
+}
+#foot{
+    background-color: gray;
+}
+#foot.f1 h3{
+      color: brown;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+#foot .f1{
+    margin-left: 20px;
+}
+
+.foot3 ul{
+    list-style-type: none;
+}
+#foot i:hover{
+    background-color: white;
+    
+ }
+ #l{
+     margin-bottom: -40px;
+     background-color: black;
+ }
+ #l h5{
+     margin-left: 500px;
+     color: white;
+ }
